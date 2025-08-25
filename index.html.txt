@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download QueenChescaX Project</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            max-width: 500px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        
+        .download-btn {
+            display: inline-block;
+            padding: 15px 40px;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+        
+        .file-info {
+            margin-top: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        .file-info h3 {
+            margin-bottom: 10px;
+            color: #4ecdc4;
+        }
+        
+        .file-list {
+            text-align: left;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        
+        .file-list ul {
+            list-style: none;
+        }
+        
+        .file-list li {
+            margin: 5px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .file-list li:before {
+            content: "📁";
+            position: absolute;
+            left: 0;
+        }
+        
+        .emoji {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="emoji">👑</div>
+        <h1>QueenChescaX Project</h1>
+        <p>Complete full-stack web application with React frontend and Express.js backend</p>
+        
+        <a href="queenchescax-project.zip" download class="download-btn">
+            📥 Download Project ZIP
+        </a>
+        
+        <div class="file-info">
+            <h3>📦 What's Included</h3>
+            <div class="file-list">
+                <ul>
+                    <li>Complete React frontend with animations</li>
+                    <li>Express.js backend with TypeScript</li>
+                    <li>Tailwind CSS styling</li>
+                    <li>shadcn/ui components</li>
+                    <li>Framer Motion animations</li>
+                    <li>PostgreSQL database schema</li>
+                    <li>All configuration files</li>
+                    <li>Full package.json with dependencies</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div style="margin-top: 30px; font-size: 0.9rem; opacity: 0.7;">
+            <p>🚀 <strong>Quick Start:</strong> Extract → npm install → npm run dev</p>
+        </div>
+    </div>
+</body>
+</html>
